@@ -1,0 +1,47 @@
+.keyboardmenu {
+    border: 1px solid var(--border-color);
+    background: var(--menu-background);
+    position: absolute;
+
+}
+
+.keyboardmenu button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    -webkit-appearance: none;
+    border: 0;
+    background: none;
+    height: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 0;
+    padding-left: 1em;
+    font-size: 10px;
+}
+
+.keyboardmenu button:focus {
+    background: var(--menu-selected-background);
+    outline: 0;
+}
+
+.keyboardmenu .option {
+    position: relative;
+}
+
+.Descriptionbox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: var(--menu-font-color);
+    border-top: 1px solid var(--border-color);
+    background: var(--menu-background);
+    padding: 2px;
+}
+
+.Descriptionbox p {
+    font-size: 10px;
+    margin: 0;
+}

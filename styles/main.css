@@ -1,0 +1,34 @@
+:root {
+    --border-color: black;
+    --dialogue-background: yellow;
+
+    --menu-background: blue;
+    --menu-border-color: red;
+    --menu-font-color: green;
+    --menu-selected-background: orchid;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.gamecontainer {
+    position: relative;
+    width: 512px;
+    height: 244px;
+    outline: 2px solid white;
+    margin: 0 auto;
+    transform: scale(2) translateY(50%);
+}
+
+.gamecontainer canvas{
+    image-rendering: pixelated;
+}
