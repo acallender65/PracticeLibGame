@@ -1,0 +1,10 @@
+TO DO:
+
+Maybe we could try to complete 1 of these tasks per day ??
+
+1. Minigames - x5 (1 per game night) - JAN 10 
+2. Script + book references - planning/ mapping out storyline in a more detailed way - JAN 11
+3. Coding storyline into code - adjust npc behaviours + cutscenes + walls + sound effects + tasks bar - JAN 12
+
+4. Replace code done in previous version (react + amplify version) with this one - do this on JAN 13 or JAN 14
+5. Complete questions for handing in - JAN 13 or JAN 14

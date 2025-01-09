@@ -1,0 +1,11 @@
+Here are some issues that i've encountered while setting up the game so far
+If you guys have any free time, I would really appreciate if you could help me solve some of these issues
+
+1. walls not working - fixed !!
+    - if you move our main character behind or under the npc it looks weird - i think the wall around the npc hasnt been properly defined
+2. Main character still moves even if text is there - the character shouldnt move even when arrows are pressed
+3. The Main character has to go very close to interact with another character
+4. the npc going in circles on the second floor can be walked through - like there is no wall around it 
+    - this actually happens after talking to it 
+5. The starting text comes up twice - fixed !!
+    - idk why it says "Hello WorldHello World" - it's supposed to say "Hello World" only

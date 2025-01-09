@@ -1,0 +1,3 @@
+Instruction Document:
+
+Hi - this is a document to help you guys out with coding. I've listed what each javascript file controls below:
