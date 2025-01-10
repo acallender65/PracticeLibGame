@@ -107,7 +107,7 @@ class OverworldMap {
 window.OverworldMaps = {
     FFLib: {
         id: "SFLib",
-        lowersrc: "images/Finished backgrounds-1.png.png",
+        lowersrc: "images/Finishedbackgrounds-1.png.png",
         uppersrc: "images/Actual Character.png", //replece this with cut out of top wall
         gameObjects: {
             mc: new person({
