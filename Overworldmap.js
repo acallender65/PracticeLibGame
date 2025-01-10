@@ -107,8 +107,8 @@ class OverworldMap {
 window.OverworldMaps = {
     FFLib: {
         id: "SFLib",
-        lowersrc: "/images/Finished backgrounds-1.png.png",
-        uppersrc: "/images/Actual Character.png", //replece this with cut out of top wall
+        lowersrc: "images/Finished backgrounds-1.png.png",
+        uppersrc: "images/Actual Character.png", //replece this with cut out of top wall
         gameObjects: {
             mc: new person({
                 isPlayerControlled: true,
@@ -119,7 +119,7 @@ window.OverworldMaps = {
                 isPlayerControlled: false,
                 x: utils.withGrid(3),
                 y: utils.withGrid(3),
-                src: "/images/Actual Character (1).png",//change this design
+                src: "images/Actual Character (1).png",//change this design
                 behaviourloop: [ //not event based - will repeat and loop
                     {type: "stand", direction: "left", time: 800},
                     {type: "stand", direction: "up", time: 800},
@@ -146,7 +146,7 @@ window.OverworldMaps = {
                 isPlayerControlled: false,
                 x: utils.withGrid(6),
                 y: utils.withGrid(6),
-                src: "/images/Actual Character (1).png",//change this design
+                src: "images/Actual Character (1).png",//change this design
                 behaviourloop: [ //not event based - will repeat and loop
                     {type: "walk", direction: "right"},
                     {type: "stand", direction: "up", time: 800},
@@ -197,8 +197,8 @@ window.OverworldMaps = {
 
     SFLib: {
         id: "SFLib",
-        lowersrc: "/images/Finishedbackgrounds-2.png.png",
-        uppersrc: "/images/Actual Character.png", //replece this with cut out of top wall
+        lowersrc: "images/Finishedbackgrounds-2.png.png",
+        uppersrc: "images/Actual Character.png", //replece this with cut out of top wall
         gameObjects: {
             mc: new person({
                 isPlayerControlled: true,
